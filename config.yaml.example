@@ -1,0 +1,12 @@
+database:
+  path: "financial_data.db"
+
+logging:
+  level: "INFO"
+
+data_settings:
+  historical_period: "5y"
+  min_trading_days_for_sma: 200
+  sma_short_window: 50
+  sma_long_window: 200
+  lookback_trading_days_for_52w: 252
